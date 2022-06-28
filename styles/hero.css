@@ -1,0 +1,77 @@
+.section_hero {
+    position: relative;
+    padding: 160px 0 60px;
+}
+
+.hero_bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 700px;
+    margin: 150px 60px 0 0;
+}
+
+.hero_bg img,
+.hero_bg svg {
+    height: auto !important;
+}
+
+.hero_desc {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #534d4d;
+}
+
+.hero_desc h1 {
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 109px;
+    color: #534d4d;
+    margin: 0 0 27px;
+}
+
+.hero_btn {
+    margin-top: 50px;
+}
+
+.btn_secondary {
+    width: 263.67px;
+    height: 76.77px;
+    border-radius: 38px;
+    background: var(--blue);
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 80px;
+    text-align: center;
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    position: relative;
+}
+
+.btn_secondary:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100%;
+    width: 148.61px;
+    height: 38.8px;
+    border-radius: 19.4px;
+    background: #3d37f1;
+    /* filter: 45px; */
+    filter: blur(45px);
+    margin-top: -20px;
+}
+
+.btn_secondary:hover {
+    color: var(--white);
+}
+
+.btn_secondary>span {
+    margin-right: 20px !important;
+}
