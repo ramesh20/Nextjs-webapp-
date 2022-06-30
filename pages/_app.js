@@ -6,6 +6,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
 	useEffect(()=>{
+        import("@popperjs/core");
         import("bootstrap/dist/js/bootstrap");
 	},[])
 

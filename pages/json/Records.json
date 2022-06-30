@@ -1,0 +1,30 @@
+[
+    {
+        "subtitle": "OUR SERVICES",
+        "title": "We Provide Best Quality Service",
+        "content": "Our commitment to quality ensures that your applications get the best UI design possible. UI/UX design is more than just pixels and animations, but the entire application experience.",
+        "data": [{
+                "bgColor": "#000",
+                "image": "websiteuiImage",
+                "imgDimention": {
+                    "width": 100,
+                    "height": 100
+                },
+                "title": "Website Ui",
+                "content": "Fast, Powerful & Most Secure Network Solutions for Smart Home & Businesses",
+                "url": "/"
+            },
+            {
+                "bgColor": "#000",
+                "image": "redesignImage",
+                "imgDimention": {
+                    "width": 100,
+                    "height": 100
+                },
+                "title": "Website Ui",
+                "content": "Fast, Powerful & Most Secure Network Solutions for Smart Home & Businesses",
+                "url": "/"
+            }
+        ]
+    }
+]

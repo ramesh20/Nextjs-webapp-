@@ -2,6 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 import HeroBanner from './components/HeroBanner';
+import OurServices from './components/OurServices';
+import About from './components/About';
+import Available from './components/Available';
 
 import styles from '../styles/Home.module.css'
 
@@ -14,6 +17,9 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<HeroBanner />
+			<OurServices />
+			<About />
+			<Available />
 		</div>
 	)
 }

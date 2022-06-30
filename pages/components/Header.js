@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 import LogoImage from '../../public/logo.svg';
-import HeaderBackground from '../../public/bg-header.png';
 
 import styles from '../../styles/Header.module.css';
 
