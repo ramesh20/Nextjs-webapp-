@@ -18,7 +18,7 @@ const Available = () => {
 					<div className="available_text">
 						<div className="subtitle_holder">Learn About My Workflow:</div>
 						<div className="title_holder">
-							<h2>I'm always hungry for creativity. Available for hire</h2>
+							<h2>I&#39;m always hungry for creativity. Available for hire</h2>
 						</div>
 					</div>
 					<div className="available_btn">

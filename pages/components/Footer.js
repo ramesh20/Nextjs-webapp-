@@ -62,7 +62,7 @@ const Footer = () => {
 						<div className="col-lg-4 col-md-6">
 							<h4>About Us</h4>
 							<ul>
-								<li><a href="#">We're Hiring</a></li>
+								<li><a href="#">We&#39;re Hiring</a></li>
 								<li><a href="#">Our Customer</a></li>
 								<li><a href="#">Blog Post</a></li>
 								<li><a href="#">Help & Support</a></li>
