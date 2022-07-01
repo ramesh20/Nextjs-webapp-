@@ -34,7 +34,8 @@ a {
   position: relative;
 }
 
-.site_header::after {
+/* .site_header::after { */
+.header_bg {
   content: '';
   position: absolute;
   background: url('./../public/bg-header.png');
@@ -46,7 +47,6 @@ a {
   right: 0;
   z-index: -1;
   margin: 0px -350px 0 0;
-
 }
 
 .site_header .navbar {

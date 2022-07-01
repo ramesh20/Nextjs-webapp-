@@ -3,14 +3,23 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 import LogoImage from '../../public/logo.svg';
+import headerBgImage from '../../public/bg-header.png';
 
-import styles from '../../styles/Header.module.css';
+// import styles from '../../styles/Header.module.css';s
 
 const Header = () => {
 	const router = useRouter();
   return (
 	<>
 		<header className="site_header">
+			<div className="header_bg">
+				<Image
+					src={headerBgImage}
+					alt="Picture of the author"
+					width={1446}
+					height={366}
+				/>
+			</div>
 			<nav className="navbar navbar-expand-lg">
 				<div className="container">
 					<Link href="/">
