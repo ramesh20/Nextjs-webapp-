@@ -12,9 +12,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
 	<>
-		<Layout>
-			<Component {...pageProps} />
-		</Layout>
+		<div id="wrapper">
+			<Layout>
+				<Component {...pageProps} />
+			</Layout>
+		</div>
 	</>
   )
 }

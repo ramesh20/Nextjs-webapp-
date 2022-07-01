@@ -23,6 +23,11 @@ a {
   box-sizing: border-box;
 }
 
+#wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
 .site_header {
   padding: 35px 0;
   /* padding: 74px 0; */
