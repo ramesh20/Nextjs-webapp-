@@ -9,6 +9,13 @@ import headerBgImage from '../../public/bg-header.png';
 
 const Header = () => {
 	const router = useRouter();
+
+	// const styling = {
+	// 	backgroundImage: "url('./bg-header.png')",
+	// 	width:"100%",
+	// 	height:"100%"
+	// }
+
   return (
 	<>
 		<header className="site_header">
